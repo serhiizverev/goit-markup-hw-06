@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studio</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+  <!-- Шапка сайта с навигацией conteiner -->
+  <header class="header-nav">
+    <div class="conteiner">
+      <a class="logo" href="#">
+        <b>Web&nbsp;<span class="logo-black">Studio</span></b>
+      </a>        
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link activ" href="./index.html">Студия</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="contacts-list">
+        <li class="contacts-item">
+          <a class="contacts-link" href="mailto:info@devstudio.com" >
+            <div class="icon-header">
+              <svg width="16" height="12">
+                <use href="./images/sprite.svg#icon-envelope"></use>
+              </svg>
+            </div>
+            info@devstudio.com
+          </a>
+        </li>
+        <li class="contacts-item">
+          <a class="contacts-link" href="tel:+380961111111">
+            <div class="icon-header">
+              <svg  width="10" height="15">
+                <use href="./images/sprite.svg#icon-phone"></use>
+              </svg>
+            </div>
+           +38&nbsp;096&nbsp;111&nbsp;11&nbsp;11
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-contriner">
+      <div class="hero-content">
+        <h1>
+          <b>эффективные решения<br>для вашего бизнеса</b>
+        </h1> 
+        <a class="button-hero" href="#">
+          <b>Заказать услугу</b>
+        </a>
+      </div> 
+    </section>
+
+    <!-- Преимущества компании -->
+    <section class="features">
+      <div class="conteiner">
+        <h2 class="is-hidden"> <!-- данный заголовок не отображается в браузере но в потоке -->
+          Преимущества нашей компании
+        </h2>
+        <ul class="features-list"> 
+          <li class="features-item">
+            <div class="features-icon-block">
+              <svg class="features-icon" width="70" height="70" aria-label="мы крутые и этим все сказано">
+                <use href="./images/sprite.svg#icon-features-antenna"></use>
+              </svg>
+            </div>
+            <h3>Внимание к деталям</h3>
+            <p class="par-txt">
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
+          <li class="features-item">
+            <div class="features-icon-block">
+              <svg class="" width="70" height="70" aria-label="мы крутые и этим все сказано">
+                <use href="./images/sprite.svg#icon-features-astronaut"></use>
+              </svg>
+            </div>
+            <h3>Пунктуальность</h3>
+            <p class="par-txt">
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
+          <li class="features-item">
+            <div class="features-icon-block">
+              <svg class="" width="70" height="70" aria-label="мы крутые и этим все сказано">
+                <use href="./images/sprite.svg#icon-features-clock"></use>
+              </svg>
+            </div>
+
+            <h3>Планирование</h3>
+            <p class="par-txt">
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
+          <li class="features-item">
+            <div class="features-icon-block">
+              <svg class="" width="70px" height="70px">
+                <use href="./images/sprite.svg#icon-features-diagram"></use>
+              </svg>
+            </div>
+
+            <h3>Современные технологии</h3>
+            <p class="par-txt">
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  
+    <!-- Чем мы занимаемся conteiner  -->
+    <section class="doing">
+      <div class="conteiner">
+        <h2>
+          Чем мы занимаемся
+        </h2>
+        <div class="block-doing">
+          <ul>
+            <li class="block-doing-txt">
+              <div class="position-block-doing">
+                <img class="img-box" src="./images/portfolio/i-min.jpg" alt="фотография с ноутбуком" />
+                <h3 class="doing-txt">
+                  Десктопные приложения
+                </h3>
+              </div>
+            </li>
+            <li class="block-doing-txt">
+              <div class="position-block-doing">
+                <img class="img-box"  src="./images/doing/b.jpg" alt="фотография с мобильным телефоном" />
+                <h3 class="doing-txt">
+                  Мобильные приложения
+                </h3>
+              </div>
+            </li>
+            <li class="block-doing-txt">
+              <div class="position-block-doing">
+                <img  class="img-box" src="./images/portfolio/f-min.jpg" alt="фотография с графической программой" />
+                <h3 class="doing-txt">
+                  Дизайнерские решения
+                </h3>
+              </div>
+            </li>
+          </ul>
+        </div>        
+      </div>
+    </section>
+
+    <!-- Наша команда conteiner -->
+    <section class="command">
+      <div class="conteiner">
+        <h2>
+          Наша команда
+        </h2>
+        <ul class="list-command-box">
+          <li class="command-box employee-a">
+            <h3>John Smith</h3>
+            <p>Product Designer</p>
+            <ul class="command-soc-list">
+              <li class="command-soc-item">
+                <a class="command-soc-link" href="#" aria-label=" ссылка на социальную сеть инстаграм">
+                  <svg class="command-soc-icon" width="44" height="44">
+                    <use href="./images/sprite.svg#icon-soc-ig"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="command-soc-item">
+                <a class="command-soc-link" href="#" aria-label=" ссылка на социальную сеть твиттер">
+                  <svg class="command-soc-icon" width="44" height="44">
+                    <use href="./images/sprite.svg#icon-soc-tw"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="command-soc-item">
+                <a class="command-soc-link" href="#" aria-label=" ссылка на социальную сеть фэйсбук">
+                  <svg class="command-soc-icon" width="44" height="44">
+                    <use href="./images/sprite.svg#icon-soc-fb"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="command-soc-item">
+                <a class="command-soc-link" href="#" aria-label=" ссылка на социальную сеть линкед ин">
+                  <svg class="command-soc-icon" width="44" height="44">
+                    <use href="./images/sprite.svg#icon-soc-in"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="command-box employee-b">
+            <h3>Marta Stewart</h3>
+            <p>Frontend Developer</p>
+            <ul class="command-soc-list">
+              <li class="command-soc-item">
+                <a class="command-soc-link" href="#" aria-label=" ссылка на социальную сеть инстаграм">
+                  <svg class="command-soc-icon" width="44" height="44">
+                    <use href="./images/sprite.svg#icon-soc-ig"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="command-soc-item">
+                <a class="command-soc-link" href="#" aria-label=" ссылка на социальную сеть твиттер">
+                  <svg class="command-soc-icon" width="44" height="44">
+                    <use href="./images/sprite.svg#icon-soc-tw"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="command-soc-item">
+                <a class="command-soc-link" href="#" aria-label=" ссылка на социальную сеть фэйсбук">
+                  <svg class="command-soc-icon" width="44" height="44">
+                    <use href="./images/sprite.svg#icon-soc-fb"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="command-soc-item">
+                <a class="command-soc-link" href="#" aria-label=" ссылка на социальную сеть линкед ин">
+                  <svg class="command-soc-icon" width="44" height="44">
+                    <use href="./images/sprite.svg#icon-soc-in"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="command-box employee-c">
+            <h3>Robert Jakis</h3>
+            <p>Marketing</p>
+            <ul class="command-soc-list">
+              <li class="command-soc-item">
+                <a class="command-soc-link" href="#" aria-label=" ссылка на социальную сеть инстаграм">
+                  <svg class="command-soc-icon" width="44" height="44">
+                    <use href="./images/sprite.svg#icon-soc-ig"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="command-soc-item">
+                <a class="command-soc-link" href="#" aria-label=" ссылка на социальную сеть твиттер">
+                  <svg class="command-soc-icon" width="44" height="44">
+                    <use href="./images/sprite.svg#icon-soc-tw"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="command-soc-item">
+                <a class="command-soc-link" href="#" aria-label=" ссылка на социальную сеть фэйсбук">
+                  <svg class="command-soc-icon" width="44" height="44">
+                    <use href="./images/sprite.svg#icon-soc-fb"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="command-soc-item">
+                <a class="command-soc-link" href="#" aria-label=" ссылка на социальную сеть линкед ин">
+                  <svg class="command-soc-icon" width="44" height="44">
+                    <use href="./images/sprite.svg#icon-soc-in"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="command-box employee-d">
+            <h3>Martin Doe</h3>
+            <p>UI Designer</p>
+            <ul class="command-soc-list">
+              <li class="command-soc-item">
+                <a class="command-soc-link" href="#" aria-label=" ссылка на социальную сеть инстаграм">
+                  <svg class="command-soc-icon" width="44" height="44">
+                    <use href="./images/sprite.svg#icon-soc-ig"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="command-soc-item">
+                <a class="command-soc-link" href="#" aria-label=" ссылка на социальную сеть твиттер">
+                  <svg class="command-soc-icon" width="44" height="44">
+                    <use href="./images/sprite.svg#icon-soc-tw"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="command-soc-item">
+                <a class="command-soc-link" href="#" aria-label=" ссылка на социальную сеть фэйсбук">
+                  <svg class="command-soc-icon" width="44" height="44">
+                    <use href="./images/sprite.svg#icon-soc-fb"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="command-soc-item">
+                <a class="command-soc-link" href="#" aria-label=" ссылка на социальную сеть линкед ин">
+                  <svg class="command-soc-icon" width="44" height="44">
+                    <use href="./images/sprite.svg#icon-soc-in"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Клиенты компании conteiner -->
+    <section class="clients">
+      <div class="conteiner">
+        <h2>
+          Постоянные клиенты
+        </h2>
+        <ul class="clients-list">
+          <li class="clients-item">
+            <a class="clients-link" href="#">
+              <svg class="clients-icon" width="45" height="50" aria-label=" компания Рога и Копыта нагибатор">
+                <use href="./images/sprite.svg#icon-client-a"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="clients-item">
+            <a  class="clients-link" href="#">
+              <svg class="clients-icon" width="40" height="52" aria-label=" компания Рога и Копыта нагибатор">
+                <use href="./images/sprite.svg#icon-client-b"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="clients-item">
+            <a  class="clients-link" href="#">
+              <svg class="clients-icon" width="41" height="43" aria-label=" компания Рога и Копыта нагибатор">
+                <use href="./images/sprite.svg#icon-client-c"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="clients-item">
+            <a  class="clients-link" href="#">
+              <svg class="clients-icon" width="80" height="42" aria-label=" компания Рога и Копыта нагибатор">
+                <use href="./images/sprite.svg#icon-client-d"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="clients-item">
+            <a class="clients-link" href="#">
+              <svg class="clients-icon" width="59" height="47" aria-label=" компания Рога и Копыта нагибатор">
+                <use href="./images/sprite.svg#icon-client-e"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="clients-item">
+            <a class="clients-link" href="#">
+              <svg class="clients-icon" width="89" height="46" aria-label=" компания Рога и Копыта нагибатор">
+                <use href="./images/sprite.svg#icon-client-f"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- подвал conteiner копия как в главной стринице-->
+  <footer  class="footer-conteiner">
+    <div class="conteiner">
+      <!-- левая верхняячасть футера -->
+      <div class="footer-address">
+        <a  class="logo" href="#">
+          <b>Web&nbsp;<span class="logo-white">Studio</span></b>
+        </a>
+        <address class="map">
+          г. Киев, пр-т Леси Украинки, 26
+        </address>
+        <a class="mail-content" href="mailto:info@devstudio.com" >
+          info@devstudio.com
+        </a>
+        <a class="tel-content" href="tel:+380961111111">
+         +38&nbsp;096&nbsp;111&nbsp;11&nbsp;11
+        </a>
+      </div>
+      <!-- средняя верхняя часть футера -->
+      <div class="footer-cammon">
+        <p>
+          <b>Присоединяйтесь</b>
+        </p>
+        <ul class="footer-cammon-list">
+          <li class="footer-cammon-item">
+            <a class="footer-cammon-link" href="#" aria-label=" ссылка на социальную сеть инстаграм">
+              <svg class="footer-cammon-icon" width="20px" height="20px">
+                <use href="./images/sprite.svg#icon-soc-ig"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-cammon-item">
+            <a class="footer-cammon-link" href="#" aria-label=" ссылка на социальную сеть твиттер">
+              <svg class="footer-cammon-icon" width="20px" height="16px">
+                <use href="./images/sprite.svg#icon-soc-tw"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-cammon-item">
+            <a class="footer-cammon-link" href="#" aria-label=" ссылка на социальную сеть фэйсбук">
+              <svg class="footer-cammon-icon" width="10" height="20">
+                <use href="./images/sprite.svg#icon-soc-fb"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-cammon-item">
+            <a class="footer-cammon-link" href="#" aria-label=" ссылка на социальную сеть линкед ин">
+              <svg class="footer-cammon-icon" width="13" height="14">
+                <use href="./images/sprite.svg#icon-soc-in"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>   
+      <!-- правая верхняя часть футера с подпиской -->
+      <div class="subscribe-box">
+        <form action="forma">
+          <p>
+            <b>Подпишитесь на рассылку</b>
+          </p>
+          <div class="subscribe-box-send">
+            <input type="text" value="E-mail">
+            <a class="subscribe-box-button" href="#">
+              <b>Подписаться</b>
+              <svg class="subscribe-icon-button">
+                <use href="./images/sprite.svg#icon-send"></use>
+              </svg>
+            </a>
+          </div>
+        </form>
+      </div>        
+    </div> 
+    <!-- общяя\центральная нижняя часть футера -->
+    <p class="developed">
+      2020 | Developed by GoIT Students
+    </p>
+  </footer>
+
+  <script src="./js/modal.js"></script>
+</body>
+</html>
